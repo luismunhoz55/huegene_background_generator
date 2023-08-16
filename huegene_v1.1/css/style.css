@@ -1,0 +1,234 @@
+body {
+  padding: 0;
+  margin: 0;
+
+  background-color: #e5e5e5;
+
+  font-family: 'Poppins', sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: auto;
+
+  background-color: #FFF;
+  padding: 32px 32px;
+
+  margin-bottom: 32px;
+
+  border-bottom: 1px solid #d5d5d8;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-family: 'Archivo', sans-serif;
+
+  text-align: center;
+}
+
+form h1,
+form h2,
+form label {
+  color: white;
+}
+
+body,
+input,
+button,
+select,
+textarea {
+  font-family: 'Poppins', sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+.github {
+  max-width: 50px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+
+  margin: 0 auto;
+
+  border: 1px solid #d5d5d8;
+
+  margin-top: 32px;
+  border-radius: 8px;
+  padding: 32px;
+
+  background: #f0f0f4;
+}
+
+.button-wrapper {
+  border-radius: 8px;
+  padding: 20px;
+  border: none;
+
+  color: #FFF;
+  font-family: 'Archivo', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+
+  /* transition: 0.1s ease; */
+}
+
+#pause {
+  background-color: #121214;
+}
+
+#pause:hover {
+  color: #c1c1c5;
+}
+
+#download {
+  background: #04d361;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+
+  margin: 0 auto;
+
+  width: 500px;
+  height: auto;
+
+  margin-top: 38px;
+  border-radius: 8px 8px 0 0;
+  padding: 64px;
+
+  background: #FAFAFC;
+
+}
+
+fieldset {
+  border: none;
+}
+
+.fieldset-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+fieldset legend {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 34px;
+  width: 100%;
+  padding-bottom: 16px;
+
+  border-bottom: 1px solid #e6e6f0;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-wrapper label,
+.checkbox-wrapper label {
+  font-size: 14px;
+  line-height: 24px;
+  color: #4e4958;
+  margin-bottom: 8px;
+}
+
+.input-wrapper label span {
+  margin-left: 12px;
+  font-size: 12px;
+  line-height: 20px;
+  color: #6c6a71;
+}
+
+.input-wrapper input,
+.input-wrapper textarea,
+.input-wrapper select {
+  border: 1px solid #e6e6f0;
+  border-radius: 8px;
+  height: 56px;
+  padding: 0 24px;
+
+  font-size: 16px;
+  line-height: 26px;
+
+  color: #6c6a71;
+}
+
+.check {
+  align-items: start;
+}
+
+#center {
+  height: 30px;
+  width: 30px;
+}
+
+footer {
+  width: 500px;
+  height: auto;
+
+  margin: 0 auto;
+
+  background: #f0f0f4;
+
+  display: flex;
+  flex-direction: column;
+
+  padding: 40px 64px;
+  margin-bottom: 50px;
+  border-radius: 0 0 8px 8px;
+  border-top: 1px solid #d6d6d6;
+}
+
+footer .button {
+  height: 56px;
+
+  background: #04d361;
+  border-radius: 8px;
+  border: none;
+
+  color: #FFF;
+  font-family: 'Archivo', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+
+  transition: 0.1s;
+}
+
+.button a {
+  color: #FFF;
+}
+
+footer .button:hover,
+#download:hover {
+  background: #028a3f;
+}
+
+input:invalid {
+  border: 2px solid red;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Huegene</title>
+
+  <link rel="stylesheet" href="./css/style.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600&family=Poppins:wght@300;700&display=swap"
+    rel="stylesheet">
+
+  <script src="./js/script.js"></script>
+
+  <!-- p5 js scripts -->
+  <script src="./p5.min.js"></script>
+  <script src="./p5/sketch.js"></script>
+  <script src="./p5/cell.js"></script>
+
+</head>
+
+<body>
+
+  <header>
+    <p>Have fun &nbsp:)</p>
+    <h1>Huegene Background Generator</h1>
+    <a target="_blank" href="https://github.com/luismunhoz55">
+      <img src="./img/github-mark/github-mark.svg" class="github" alt="">
+    </a>
+  </header>
+
+  <main>
+
+    <div id="canva">
+    </div>
+
+    <div class="wrapper">
+      <button class="button-wrapper" id="pause" onclick="pause()"><span>Pause</span></button>
+      <button class="button-wrapper" id="download" onclick="download()">Download</button>
+    </div>
+
+    <form action="index.html" method="post" id="my-form">
+
+      <fieldset>
+        <div class="fieldset-wrapper">
+          <legend>Parameters</legend>
+
+          <div class="input-wrapper">
+            <label for="canva-width" class="">Width<span>(px)</span></label>
+            <input value="600" required type="text" name="" id="canva-width">
+          </div>
+
+          <div class="input-wrapper">
+            <label for="canva-height" class="">Height<span>(px)</span></label>
+            <input value="600" required type="text" name="" id="canva-height">
+          </div>
+
+          <div class="input-wrapper">
+            <label for="canva-res" class="">Resolution of the grid</label>
+            <input value="5" required type="text" name="" id="canva-res">
+          </div>
+
+          <div class="input-wrapper">
+            <label for="randomness" class="">Randomness<span>(0 - 1)</span></label>
+            <input value="0.5" required type="text" name="" id="randomness">
+          </div>
+
+          <div class="input-wrapper">
+            <label for="offset" class="">Colors offset</label>
+            <input value="5" required type="text" name="" id="offset">
+          </div>
+
+          <div class="input-wrapper">
+            <label for="offset" class="">Starting points</label>
+            <input value="1" required type="text" name="" id="starting">
+          </div>
+
+          <div class="input-wrapper check">
+            <label for="center" class="">Start in the center</label>
+            <input type="checkbox" name="" id="center">
+          </div>
+
+        </div>
+      </fieldset>
+
+    </form>
+
+    <footer>
+      <button type="button" class="button" onclick="getElements()"><a href="#canva">Generate</a></button>
+    </footer>
+  </main>
+
+</body>
+
+</html>
