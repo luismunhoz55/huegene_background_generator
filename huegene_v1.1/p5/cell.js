@@ -1,15 +1,11 @@
 class Cell {
-
   constructor(r, g, b) {
-
     if (!r && !g && !b) {
       this.red = 0;
       this.green = 0;
       this.blue = 0;
       this.active = false;
-    }
-    else {
-
+    } else {
       //The variation from the color inherited
       let changing = offsetForm;
 
@@ -30,7 +26,5 @@ class Cell {
       else if (index == 1) this.green += offset;
       else this.blue += offset;
     }
-
   }
-
 }

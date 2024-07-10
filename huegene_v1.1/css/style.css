@@ -4,7 +4,7 @@ body {
 
   background-color: #e5e5e5;
 
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 header {
@@ -14,7 +14,7 @@ header {
 
   width: auto;
 
-  background-color: #FFF;
+  background-color: #fff;
   padding: 32px 32px;
 
   margin-bottom: 32px;
@@ -27,7 +27,6 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
 }
 
 a {
@@ -35,7 +34,7 @@ a {
 }
 
 h1 {
-  font-family: 'Archivo', sans-serif;
+  font-family: "Archivo", sans-serif;
 
   text-align: center;
 }
@@ -51,7 +50,7 @@ input,
 button,
 select,
 textarea {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 button {
@@ -84,8 +83,8 @@ button {
   padding: 20px;
   border: none;
 
-  color: #FFF;
-  font-family: 'Archivo', sans-serif;
+  color: #fff;
+  font-family: "Archivo", sans-serif;
   font-weight: 600;
   font-size: 20px;
   line-height: 26px;
@@ -119,8 +118,7 @@ form {
   border-radius: 8px 8px 0 0;
   padding: 64px;
 
-  background: #FAFAFC;
-
+  background: #fafafc;
 }
 
 fieldset {
@@ -134,7 +132,7 @@ fieldset {
 }
 
 fieldset legend {
-  font-family: 'Archivo', sans-serif;
+  font-family: "Archivo", sans-serif;
   font-weight: 600;
   font-size: 24px;
   line-height: 34px;
@@ -164,6 +162,13 @@ fieldset legend {
   color: #6c6a71;
 }
 
+.colorInput {
+  height: 50px !important;
+  border: none !important;
+  border-radius: 0 !important;
+  padding: 0 !important;
+}
+
 .input-wrapper input,
 .input-wrapper textarea,
 .input-wrapper select {
@@ -180,6 +185,11 @@ fieldset legend {
 
 .check {
   align-items: start;
+}
+
+.input-wrapper-color {
+  display: flex;
+  gap: 50px;
 }
 
 #center {
@@ -211,8 +221,8 @@ footer .button {
   border-radius: 8px;
   border: none;
 
-  color: #FFF;
-  font-family: 'Archivo', sans-serif;
+  color: #fff;
+  font-family: "Archivo", sans-serif;
   font-weight: 600;
   font-size: 20px;
   line-height: 26px;
@@ -221,7 +231,7 @@ footer .button {
 }
 
 .button a {
-  color: #FFF;
+  color: #fff;
 }
 
 footer .button:hover,
